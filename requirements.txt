@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn==0.22.1
+matplotlib
+dash==1.13.3
+plotly==4.6.0
+scapy==2.4.3
+requests
+ipython
+jupyter

