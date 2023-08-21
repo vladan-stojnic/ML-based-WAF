@@ -1,6 +1,6 @@
 # ML-based-WAF
 
-This respository contains the code for machine learning based Web Application Firewall written in Python 3.8. This WAF can detect SQL injection, XSS, Path-traversal and commqand injection attacks. It can also detect long parameters as possible parameter tampering attacks. Repository also contains the code for simple REST service that can be used as target.
+This respository contains the code for machine learning based Web Application Firewall written in Python 3.8. This WAF can detect SQL injection, XSS, Path-traversal and command injection attacks. It can also detect long parameters as possible parameter tampering attacks. Repository also contains the code for simple REST service that can be used as target.
 
 Code for processing the datasets is located in Dataset directory. To run cleaning notebooks, you need to download used datasets and place them in Dataset directory.
 *  ECML/PKDD 2007 dataset [Link](http://www.lirmm.fr/pkdd2007-challenge/)
