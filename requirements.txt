@@ -2,7 +2,7 @@ pandas
 numpy
 scikit-learn==0.22.1
 matplotlib
-dash==1.13.3
+dash==2.15.0
 plotly==4.6.0
 scapy==2.4.3
 requests
